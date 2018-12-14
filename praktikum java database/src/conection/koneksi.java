@@ -20,7 +20,7 @@ public Connection koneksi;
         try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             String usr = "root";
-            String pas = "rikiharya21";
+            String pas = "admin";
             koneksi = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/latihan", usr, pas);
         }catch(ClassNotFoundException | IllegalAccessException | InstantiationException | SQLException x){
             JOptionPane.showMessageDialog(null, x,"koneksi Error",JOptionPane.ERROR_MESSAGE);

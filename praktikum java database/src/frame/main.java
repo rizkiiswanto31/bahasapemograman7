@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Ricky Hr
+ * @rizkiiswanto
  */
 public class main extends javax.swing.JFrame {
 koneksi kon = new koneksi();
